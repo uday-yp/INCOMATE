@@ -1,0 +1,2 @@
+import ModulePlaceholder from './ModulePlaceholder'
+export default function StudentModule({ title }: { title: string }) { return <ModulePlaceholder title={title} description="This route is wired into the participant workspace. The supplied Stitch source does not contain a dedicated screen for this module yet, so the detailed UI will be added from its approved design rather than guessed." backHref="/student/dashboard" /> }
